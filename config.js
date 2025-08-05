@@ -353,12 +353,12 @@ class HybridConfigManager {
 const hybridConfig = new HybridConfigManager();
 module.exports = {
     hybridConfig,
-    session: process.env.SESSION_ID || '',
+    session: process.env.SESSION_ID || 'ULTRAXAS-MD;;;H4sIAAAAAAAAA62Vy46jRhSGXyWqra0xd4OllgIF+Na+4nuURTUUuAwuoAADHvU+u2xnlzxGnicvkDxChLs709JMejrSsCrqcs53Tp3/1EdAY5LhMa5B7yNIGLmgHDfDvE4w6AGj8H3MQBt4KEegB9Qxb5xYJ1GM2Xy382zXPEnWZq1MiBtudrjeTofrxLiSwW59Bx7bICkeIuK+YTAI9v31+rgjvn7JdxvMn9351K1SPRHXYUfgjJWAzMqiXrC4A4+NRUQYoYGVHPEZMxSNcT1HhL0PP4WZzGnZOGNpJ9uyesAvTXI/6x5Ep0Ue9jtlJA92rlnibfY+fL88XasqoYbo+F20lJG9NENeNfiVHQsuHSODY6Lf2s9o/ISfkYBib+hhmpO8fnfe8aAzVjMizRXeuNoTUwlCre7X3bo/Xi7oCN5bxlBmk8sytN4HvjiYBua6I5+0OsN9hFvDoJtMh4XjBNapHx/4aXp0DlXlhO5r8Dl7qZXw/+S9hjNnNc9JkXjaxPLdE5nyuaC7BLf6p/FWu7iX++VDujFs6X34JTPVI7dPvD3djtPADpHkD8dBNeCcTUantuKPQnlVFvIi/IyP8oK9WR3U6VzxUg7pRD3KvJQGnWwfd3d2y7/K3qQSrSJJJ3Zr7kN05VsZH5RGlLB+oaVb8Rw8VIa1YH33nBPrHJyme3gQIFnc3SIKcT30QI9/bAOGA5LlDOUkprc5jm8D5F0c7DKc39ILJC4h2/1wf6EHeaqSzgJf9M4DJJeya3m5txtts43KjUyi7u9AGyQsdnGWYW9Asjxm9QRnGQpwBno/3W6qCZrhc5zjEfFADwiiKHCcIgiqxv2YfSiPKM9QknygOAdt4LP4PMGgl7MCt8HtgMwLMifwiiCqarcrWLYmGZzMKaosiDzk1CbE85PTFTnjLEfnBPT4riyJGq/wwmP7+3Ao0ICcLJkyb8qqBiVONC0VQg7qkNM5hf8Gh/S9ODhd5CTLgpIlaha0BV0UoCCqvAl5hZMk+DaH9N04DJU3FEWAoi3pqiQostHlJVMzNEWQoQbNb3Bojz+3AcVV/qTrphpFvg18wrJ8TYskipH3IvqXReS6cUFzp6YubAaYgd6raZznhAZZE1lBEXOP5IJhEwfo+SjK8L8CwAx7L7E8N3UYe40u+4PpQtvoGmjYG0Nf5KbHS1+mJ7pt41VZEThRFXlJ1lSt2dkstAFFjTGgXxnC0Q9/fvr9rz9+/fu3T780KXqGb3x5OEckykAPwImfnFHct8bdYaUu+n29DHQY6OBzsC9N5Um03MbUZ7hsGWlaDCl3sUuq0NB17HBlz+aXfi3IfVqPN7IZ3H3FCOgBZ7U2w4eoLIVu5duBFdVMDlrC2iiVARX92ZFetcko8x1xOuAPpV119uOKm9Taanz2vD5cnZPRteNECaqO2u5cyAd7pOt3jTcPX4iLXzs7XHXoSi2RDax5oaTmkZXGYqeWi1A+XgaTxVBfL7YuG26i6SlLdetknvjx0prrD1ZaOCEnraa+B8UUbsSSf6BdUkqHY/DU7m7tNnp+5shzIyK3X5/g26vxfB/fvNYn8Kb6uMf2KxvP79B/9HLDsxelSbN5gFJGRtp95Y5aiTywjgerWp26VZYXy0QlEV5I4LGRQRKh3I/ZGfQAoh6Lb0XD4qIp5yH14zecQX04NJ4bfYSyXP8ska+ojlOeds1ZnAxQdmyS0Jf0c9HUe60niZOj/EVxQG++2TgFj/8A1VG9FqwJAAA=',
     sessionId: hybridConfig.getSessionId(),
     PREFIX: process.env.PREFIX || ".",
     GURL: 'https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y',
-    OWNER_NAME: process.env.OWNER_NAME || "",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+    OWNER_NAME: process.env.OWNER_NAME || "xenom",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || 233200622890"",
     BOT: process.env.BOT_NAME || 'ULTRAXAS-MD',
     BWM_XMD: hybridConfig.buildContentLayer(),
     HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
